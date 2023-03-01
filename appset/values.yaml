@@ -1,3 +1,5 @@
+projectName: primary-appset
+
 services:
   list-app-1:
     repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git

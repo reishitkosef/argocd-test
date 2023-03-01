@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
-  name: {{ .Values.kindSetName }}
+  name: '{{ .Values.projectName }}-{{ .Values.global.clusterName }}'
   namespace: argocd
 spec:
   generators:
