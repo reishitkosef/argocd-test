@@ -7,7 +7,7 @@ spec:
   generators:
   - list:
       elements:
-      {{- range $serviceName, service := .Values.services }}
+      {{- range $serviceName, $service := .Values.services }}
        - values:
            serviceName: {{ $serviceName }}
            repoURL: {{ $service.repoURL }}
