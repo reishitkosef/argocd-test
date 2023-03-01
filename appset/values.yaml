@@ -121,3 +121,283 @@ services:
     repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
     targetRevision: master
     path: list-app-30
+  list-app-31:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-31
+  list-app-32:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-32
+  list-app-33:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-33
+  list-app-34:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-34
+  list-app-35:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-35
+  list-app-36:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-36
+  list-app-37:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-37
+  list-app-38:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-38
+  list-app-39:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-39
+  list-app-40:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-40
+  list-app-41:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-41
+  list-app-42:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-42
+  list-app-43:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-43
+  list-app-44:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-44
+  list-app-45:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-45
+  list-app-46:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-46
+  list-app-47:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-47
+  list-app-48:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-48
+  list-app-49:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-49
+  list-app-50:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-50
+  list-app-51:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-51
+  list-app-52:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-52
+  list-app-53:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-53
+  list-app-54:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-54
+  list-app-55:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-55
+  list-app-56:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-56
+  list-app-57:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-57
+  list-app-58:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-58
+  list-app-59:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-59
+  list-app-60:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-60
+  list-app-61:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-61
+  list-app-62:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-62
+  list-app-63:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-63
+  list-app-64:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-64
+  list-app-65:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-65
+  list-app-66:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-66
+  list-app-67:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-67
+  list-app-68:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-68
+  list-app-69:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-69
+  list-app-70:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-70
+  list-app-71:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-71
+  list-app-72:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-72
+  list-app-73:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-73
+  list-app-74:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-74
+  list-app-75:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-75
+  list-app-76:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-76
+  list-app-77:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-77
+  list-app-78:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-78
+  list-app-79:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-79
+  list-app-80:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-80
+  list-app-81:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-81
+  list-app-82:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-82
+  list-app-83:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-83
+  list-app-84:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-84
+  list-app-85:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-85
+  list-app-86:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-86
+  list-app-87:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-87
+  list-app-88:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-88
+  list-app-89:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-89
+  list-app-90:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-90
+  list-app-91:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-91
+  list-app-92:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-92
+  list-app-93:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-93
+  list-app-94:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-94
+  list-app-95:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-95
+  list-app-96:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-96
+  list-app-97:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-97
+  list-app-98:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-98
+  list-app-99:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-99
+  list-app-100:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-100

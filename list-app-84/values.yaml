@@ -1,0 +1,3 @@
+application:
+  content: "<h1>84 Application</h1>"
+namespace: webserver-list-84
