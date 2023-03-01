@@ -20,9 +20,9 @@ spec:
     spec:
       project: default
       source:
-        repoURL: '{{"{{ values.repoURL }"}}'
-        targetRevision: '{{"{{ values.targetRevision }"}}'
-        path: '{{"{{ values.path }"}}'
+        repoURL: '{{"{{ values.repoURL }}"}}'
+        targetRevision: '{{"{{ values.targetRevision }}"}}'
+        path: '{{"{{ values.path }}"}}'
         helm:
           valueFiles:
           - 'values.yaml'
