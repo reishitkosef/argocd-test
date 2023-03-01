@@ -1,0 +1,3 @@
+application:
+  content: "<h1>235 Application</h1>"
+namespace: webserver-list-235
