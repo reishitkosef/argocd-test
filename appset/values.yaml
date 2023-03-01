@@ -9,3 +9,15 @@ services:
     repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
     targetRevision: master
     path: list-app-2
+  list-app-3:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-3
+  list-app-4:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-4
+  list-app-5:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-5
