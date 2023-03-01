@@ -1,0 +1,9 @@
+services:
+  list-app-1:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-1
+  list-app-2:
+    repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+    targetRevision: master
+    path: list-app-2

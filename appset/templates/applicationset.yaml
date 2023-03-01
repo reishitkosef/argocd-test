@@ -1,0 +1,34 @@
+apiVersion: argoproj.io/v1alpha1
+kind: ApplicationSet
+metadata:
+  name: {{ .Values.kindSetName }}
+  namespace: argocd
+spec:
+  generators:
+  - list:
+      elements:
+      {{- range $serviceName, service := .Values.services }}
+       - values:
+           serviceName: {{ $serviceName }}
+           repoURL: {{ $service.repoURL }}
+           targetRevision: {{ $service.targetRevision }}
+           path: {{ $service.path }}
+      {{- end}}
+  template:
+    metadata:
+      name: '{{"{{ values.serviceName }}"}}-{{ .Values.global.clusterName }}'
+    spec:
+      project: default
+      source:
+        repoURL: '{{"{{ values.repoURL }"}}'
+        targetRevision: '{{"{{ values.targetRevision }"}}'
+        path: '{{"{{ values.path }"}}'
+        helm:
+          valueFiles:
+          - 'values.yaml'
+      destination:
+        name: '{{ .Values.global.clusterName }}'
+      syncPolicy:
+        automated:
+          prune: false
+          selfHeal: true

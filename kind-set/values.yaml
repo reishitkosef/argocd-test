@@ -1,0 +1,8 @@
+kindSetName: "multinode-kindset"
+projectName: "list-appset"
+chartRepo:
+  path: "appset"
+  revision: "master"
+kinds:
+  - kind-cluster-01
+  - kind-cluster-02

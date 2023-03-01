@@ -1,0 +1,33 @@
+apiVersion: argoproj.io/v1alpha1
+kind: ApplicationSet
+metadata:
+  name: {{ .Values.kindSetName }}
+  namespace: argocd
+spec:
+  generators:
+  - list:
+      elements:
+      {{- range $kindName := .Values.kinds}}
+       - clusterName: {{ $kindName }}
+      {{- end}}
+  template:
+    metadata:
+      name: '{{ .Values.projectName }}-{{ "{{clusterName}}" }}'
+    spec:
+      project: default
+      source:
+        repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+        targetRevision: master
+        path: appset/
+        helm:
+          valueFiles:
+          - 'values.yaml'
+          parameters:
+            - name: global.clusterName
+              value: '{{ "{{clusterName}}" }}'
+      destination:
+        name: 'in-cluster'
+      syncPolicy:
+        automated:
+          prune: false
+          selfHeal: true
