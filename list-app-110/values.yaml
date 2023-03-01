@@ -1,0 +1,3 @@
+application:
+  content: "<h1>110 Application</h1>"
+namespace: webserver-list-110
