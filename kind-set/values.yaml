@@ -6,3 +6,6 @@ chartRepo:
 kinds:
   - kind-cluster-01
   - kind-cluster-02
+  - kind-cluster-03
+  - kind-cluster-04
+  - kind-cluster-05
