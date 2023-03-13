@@ -20,7 +20,7 @@ spec:
       source:
         repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
         targetRevision: master
-        path: appset/
+        path: appset-2/
         helm:
           valueFiles:
           - 'values.yaml'
