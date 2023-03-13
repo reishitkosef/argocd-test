@@ -1,0 +1,16 @@
+kindSetName: "multinode-kindset-2"
+projectName: "list-appset-2"
+chartRepo:
+  path: "appset-2"
+  revision: "master"
+kinds:
+  - kind-cluster-01
+  - kind-cluster-02
+  - kind-cluster-03
+  - kind-cluster-04
+  - kind-cluster-05
+  - kind-cluster-06
+  - kind-cluster-07
+  - kind-cluster-08
+  - kind-cluster-09
+  - kind-cluster-10
