@@ -1,7 +1,7 @@
 #! /bin/bash
 
-MIN_KIND=11
-MAX_KIND=41
+MIN_KIND=42
+MAX_KIND=80
 
 for ((i=$MIN_KIND; i<=$MAX_KIND; i++))
 do
