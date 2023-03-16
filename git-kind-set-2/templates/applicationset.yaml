@@ -9,9 +9,7 @@ spec:
       repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
       revision: master
       files:
-        {{- range $kindName := .Values.kinds}}
-        - path: 'kinds/{{ $kindName }}_cr.yaml'
-        {{- end}}
+        - path: 'kinds/*_cr.yaml'
   template:
     metadata:
       name: '{{ .Values.projectName }}-{{ "{{ metadata.name }}" }}'
