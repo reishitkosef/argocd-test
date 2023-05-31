@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
   name: {{ .Values.kindSetName }}
-  namespace: argocd
+  namespace: ebutz
 spec:
   generators:
   - git:
@@ -27,7 +27,6 @@ spec:
               value: '{{ "{{ metadata.name }}" }}'
       destination:
         name: 'in-cluster'
-        namespace: 'ebutz'
       syncPolicy:
         automated:
           prune: false
