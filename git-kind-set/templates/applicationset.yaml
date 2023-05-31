@@ -5,14 +5,15 @@ metadata:
   namespace: ebutz
 spec:
   generators:
-  - git:
-      repoURL: https://github.com/reishitkosef/argocd-test.git
-      revision: master
-      files:
-        - path: 'kinds/*_cr.yaml'
+  - list:
+      elements:
+      {{- range $kindName := .Values.kinds }}
+      - cluster: '{{ $kindName }}'
+        url: ''
+      {{- end }}
   template:
     metadata:
-      name: '{{ .Values.projectName }}-{{ "{{ metadata.name }}" }}'
+      name: '{{ .Values.projectName }}-{{ .Values.generator.cluster }}'
     spec:
       project: default
       source:
@@ -24,10 +25,11 @@ spec:
           - 'values.yaml'
           parameters:
             - name: global.clusterName
-              value: '{{ "{{ metadata.name }}" }}'
+              value: '{{ .Values.generator.cluster }}'
       destination:
-        name: 'in-cluster'
-      syncPolicy:
-        automated:
-          prune: false
-          selfHeal: true
+        name: '{{ .Values.generator.cluster }}'
+      #syncPolicy:
+        #automated:
+          #prune: false
+          #selfHeal: true
+      

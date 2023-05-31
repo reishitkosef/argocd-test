@@ -7,3 +7,5 @@ kinds:
   - kind-cluster-01
   - kind-cluster-02
   - kind-cluster-03
+generator:
+  cluster: "{{cluster}}"
