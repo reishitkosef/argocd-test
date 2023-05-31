@@ -14,6 +14,8 @@ spec:
            targetRevision: {{ $service.targetRevision }}
            path: {{ $service.path }}
       {{- end}}
+  syncPolicy:
+    preserveResourcesOnDeletion: true
   template:
     metadata:
       name: '{{"{{ values.serviceName }}"}}-{{ .Values.global.clusterName }}'
@@ -28,7 +30,4 @@ spec:
           - 'values.yaml'
       destination:
         name: '{{ .Values.global.clusterName }}'
-      syncPolicy:
-        automated:
-          prune: false
-          selfHeal: true
+      

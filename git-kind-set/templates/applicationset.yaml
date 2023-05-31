@@ -6,7 +6,7 @@ metadata:
 spec:
   generators:
   - git:
-      repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+      repoURL: https://github.com/reishitkosef/argocd-test.git
       revision: master
       files:
         - path: 'kinds/*_cr.yaml'
@@ -16,7 +16,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/michaelkotelnikov/argocd-bench-list-generator.git
+        repoURL: https://github.com/reishitkosef/argocd-test.git
         targetRevision: master
         path: appset/
         helm:
