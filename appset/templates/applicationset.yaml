@@ -22,7 +22,7 @@ spec:
     spec:
       syncPolicy:
         automated: {}
-        
+
       project: default
       source:
         repoURL: '{{"{{ values.repoURL }}"}}'
@@ -32,5 +32,5 @@ spec:
           valueFiles:
           - 'values.yaml'
       destination:
-        name: 'https://kubernetes.default.svc'
+        name: 'in-cluster'
       
