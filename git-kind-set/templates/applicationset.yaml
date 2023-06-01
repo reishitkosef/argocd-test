@@ -27,6 +27,7 @@ spec:
               value: '{{ "{{ metadata.name }}" }}'
       destination:
         name: 'in-cluster'
+        namespace: ebutz
       syncPolicy:
         automated:
           prune: false
