@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
   name: '{{ .Values.projectName }}-{{ .Values.global.clusterName }}'
-  namespace: argocd
+  namespace: ebutz
 spec:
   generators:
   - list:
