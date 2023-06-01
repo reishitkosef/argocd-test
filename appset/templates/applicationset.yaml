@@ -30,5 +30,6 @@ spec:
           - 'values.yaml'
       destination:
         name: '{{ .Values.global.clusterName }}'
+        namespace: ebutz
         
       
